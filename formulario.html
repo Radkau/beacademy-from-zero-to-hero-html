@@ -23,7 +23,7 @@
 
     <fieldset>
         <legend>Trabalhando com Inputs</legend>
-        <input
+        <!-- <input
         type="text" 
         placeholder="Preencha o seu nome"
         size="60"
@@ -66,8 +66,32 @@
         <br>
         <input type="week">
         <br>
-        <input type="time">
+        <input type="time"> -->
+        
+        <label for="area">
+            Seu intersse maior é por qual área?
+        </label>
 
+        <div>
+            <input type="checkbox" checked name="intersse" id="frontend" value="Front-End Luan Monteiro">
+            <label for="frontend">Front-End Luan Monteiro</label>
+
+            <input type="checkbox" name="intersse" id="backend" value="Back-End Regis Santos">
+            <label for="backend">Back-End Regis Santos</label>
+
+            <input type="checkbox" name="intersse" id="designuiux" value="Design UI/UX Jenifer Vieira">
+            <label for="designuiux">Design UI/UX Jenifer Vieira</label>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <h3>Deseja receber notificação da be.academy?</h3>
+        <label for="yes">Sim</label>
+        <input type="radio" id="yes" checked name="notification" value="yes">
+        <label for="no">Não</label>
+        <input type="radio" id="no" name="notification" value="no">
 
 
         <br>
