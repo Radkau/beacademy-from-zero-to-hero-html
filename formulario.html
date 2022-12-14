@@ -50,11 +50,26 @@
         <input
         type="password" 
         size="24"
-        minlength="8"
-        maxlength="16"
-        title="Preencha o dado"
+        title="Sua senha precisa ser em Hexadecimal"
+        pattern="[0-9a-fA-F]{4,8}"
         required
+        inputmode="numeric"
         >
+        <br>
+        <input type="hidden" value="Eu estou escondido =)">
+        <br>
+        <input type="color">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="month">
+        <br>
+        <input type="week">
+        <br>
+        <input type="time">
+
+
+
         <br>
         <button type="submit">Enviar</button>
 
